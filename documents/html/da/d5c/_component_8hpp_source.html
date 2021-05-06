@@ -1,0 +1,88 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.14"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>PrÃ¡ctica Motores: Fichero Fuente engine/code/headers/Component.hpp</title>
+<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../jquery.js"></script>
+<script type="text/javascript" src="../../dynsections.js"></script>
+<link href="../../search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../search/searchdata.js"></script>
+<script type="text/javascript" src="../../search/search.js"></script>
+<link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">PrÃ¡ctica Motores
+   &#160;<span id="projectnumber">0.1</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.14 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "../../search",false,'Buscar');
+/* @license-end */
+</script>
+<script type="text/javascript" src="../../menudata.js"></script>
+<script type="text/javascript" src="../../menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('../../',true,false,'search.php','Buscar');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="../../dir_996f45160da62e1a3d7f6046fad68f51.html">engine</a></li><li class="navelem"><a class="el" href="../../dir_0c10233b2546128f7e3a26815fccf431.html">code</a></li><li class="navelem"><a class="el" href="../../dir_5a37b0a3eff60998faf5112e552e435d.html">headers</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">Component.hpp</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="../../da/d5c/_component_8hpp.html">Ir a la documentaciÃ³n de este archivo.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;</div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;</div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#ifndef COMPONENT_HEADER</span></div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#define COMPONENT_HEADER</span></div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;</div><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="keyword">class </span><a class="code" href="../../d2/d96/class_entity.html">Entity</a>;</div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;</div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;</div><div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="../../d2/d00/class_component.html">   12</a></span>&#160;<span class="keyword">class </span><a class="code" href="../../d2/d00/class_component.html">Component</a></div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;{</div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;</div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="keyword">protected</span>:</div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;</div><div class="line"><a name="l00019"></a><span class="lineno"><a class="line" href="../../d2/d00/class_component.html#a17417fcc0e63248fa5b243794a0025e4">   19</a></span>&#160;    <a class="code" href="../../d2/d96/class_entity.html">Entity</a> * <a class="code" href="../../d2/d00/class_component.html#a17417fcc0e63248fa5b243794a0025e4">parent</a>;</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="keyword">public</span>:</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;</div><div class="line"><a name="l00026"></a><span class="lineno"><a class="line" href="../../d2/d00/class_component.html#a13fba4e303a201b7ff21557fdb5c34c3">   26</a></span>&#160;    <a class="code" href="../../d2/d00/class_component.html#a13fba4e303a201b7ff21557fdb5c34c3">Component</a>(<a class="code" href="../../d2/d96/class_entity.html">Entity</a> * entity) : <a class="code" href="../../d2/d00/class_component.html#a17417fcc0e63248fa5b243794a0025e4">parent</a>(entity)</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    {</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    }</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;</div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;</div><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="../../d2/d00/class_component.html#a841e22750eb71f6a8f29c9757c2e5a36">initialize</a>() = 0;</div><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;</div><div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;</div><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="../../d2/d00/class_component.html#a438e79a72b2deb73442e03e8bcafd7c2">update</a>(<span class="keywordtype">float</span> delta_time) = 0;</div><div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;</div><div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;</div><div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="../../d2/d00/class_component.html#a6871e1e4327dbe32dde28ce87fc1820e">stop</a>() = 0;</div><div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;</div><div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;};</div><div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;</div><div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;<span class="preprocessor">#endif</span></div><div class="ttc" id="class_component_html_a438e79a72b2deb73442e03e8bcafd7c2"><div class="ttname"><a href="../../d2/d00/class_component.html#a438e79a72b2deb73442e03e8bcafd7c2">Component::update</a></div><div class="ttdeci">virtual void update(float delta_time)=0</div></div>
+<div class="ttc" id="class_component_html"><div class="ttname"><a href="../../d2/d00/class_component.html">Component</a></div><div class="ttdoc">Clase componente genérica. </div><div class="ttdef"><b>Definition:</b> Component.hpp:12</div></div>
+<div class="ttc" id="class_component_html_a6871e1e4327dbe32dde28ce87fc1820e"><div class="ttname"><a href="../../d2/d00/class_component.html#a6871e1e4327dbe32dde28ce87fc1820e">Component::stop</a></div><div class="ttdeci">virtual void stop()=0</div><div class="ttdoc">Termina la ejecución del componente. </div></div>
+<div class="ttc" id="class_component_html_a17417fcc0e63248fa5b243794a0025e4"><div class="ttname"><a href="../../d2/d00/class_component.html#a17417fcc0e63248fa5b243794a0025e4">Component::parent</a></div><div class="ttdeci">Entity * parent</div><div class="ttdoc">Referencia a la entidad padre. </div><div class="ttdef"><b>Definition:</b> Component.hpp:19</div></div>
+<div class="ttc" id="class_entity_html"><div class="ttname"><a href="../../d2/d96/class_entity.html">Entity</a></div><div class="ttdoc">Definición de entidad en la escena. </div><div class="ttdef"><b>Definition:</b> Entity.hpp:19</div></div>
+<div class="ttc" id="class_component_html_a841e22750eb71f6a8f29c9757c2e5a36"><div class="ttname"><a href="../../d2/d00/class_component.html#a841e22750eb71f6a8f29c9757c2e5a36">Component::initialize</a></div><div class="ttdeci">virtual void initialize()=0</div><div class="ttdoc">Inicializa el componente. </div></div>
+<div class="ttc" id="class_component_html_a13fba4e303a201b7ff21557fdb5c34c3"><div class="ttname"><a href="../../d2/d00/class_component.html#a13fba4e303a201b7ff21557fdb5c34c3">Component::Component</a></div><div class="ttdeci">Component(Entity *entity)</div><div class="ttdef"><b>Definition:</b> Component.hpp:26</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generado por &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="../../doxygen.png" alt="doxygen"/>
+</a> 1.8.14
+</small></address>
+</body>
+</html>
